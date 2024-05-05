@@ -5,22 +5,11 @@ https://helloworld-e3tahb5ijq-uc.a.run.app/chair/
 GET https://helloworld-e3tahb5ijq-uc.a.run.app/lamp/
 
 ###
-// 
-POST https://helloworld-e3tahb5ijq-uc.a.run.app/
+
+POST https://addmessage-e3tahb5ijq-uc.a.run.app
 Content-Type: application/json
 
 {
-  "name": "Map",
-  "message": "directions"
-}
-
-###
-
-POST https://us-central1-first-project-8b406.cloudfunctions.net/inventory/sku3
-Content-Type: application/json
-Authorization: Bearer szEdWT6G6GUhBPnG9sKuxDfC4KI2
-
-{
-  "name": "Map",
-  "usd": "6"
+  "chats": "user123"
+  "text": "Test"
 }
